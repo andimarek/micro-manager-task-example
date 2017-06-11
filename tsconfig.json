@@ -9,7 +9,10 @@
     "lib": [
       "es2017"
     ],
-    "declaration": false,
-    "rootDir": "src"
-  }
+    "declaration": false
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/micro-manager-task-api/task-api.d.ts"
+  ]
 }

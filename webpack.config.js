@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts','.js']
   },
   module: {
     rules: [{
@@ -20,7 +20,6 @@ module.exports = {
   },
   externals: {
     'lodash': 'lodash',
-    // 'micro-manager-task-api': '../../micro-manager/dist/task-process.'
   },
   plugins: [
   ],
